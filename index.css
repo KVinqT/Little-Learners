@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.outfit-text {
+}
+
+#container-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #fff5f0;
+}
+
+#sub-container-wrapper {
+  width: 95%;
+  padding-top: 20px;
+}
+
+/* top-banner and navbar */
+
+#top-banner-and-nav-bar-wrapper {
+}
+
+/* top-banner */
+#top-banner {
+  background-color: #ffdecc;
+  display: flex;
+  justify-content: space-between;
+  height: 58px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+#banner-content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+#banner-content {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+#left-banner-design {
+  width: 200px;
+}
+
+#banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+#right-banner-design {
+  width: 200px;
+}
+
+/* navbar */
+#navbar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 100%;
+  border-right: 2px solid #000;
+}
+
+#navigation-container {
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navigation-container button {
+  padding: 0px 20px 0px 20px;
+  height: 100%;
+  outline: none;
+  border-left: 2px solid #000;
+}
+
+#navigation-container button:hover {
+  background-color: #ffefe5;
+}
